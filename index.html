@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="public/build/css/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHEO</title>
+</head>
+<body>
+        <header class="header" > 
+            <div class="contenedor contenido-header">
+                
+                <div class="barra">
+                    
+                    <div  id="logo" class="logo">
+                            <a href="/">
+                                <picture class="logo-mobile">
+                                    <source srcset="public/build/img/logo.png" type="image/png">
+                                    <source srcset="public/build/img/logo.webp" type="image/webp">
+                                    <img loading="lazy"  src="" alt="Imagen del logo">
+                                </picture>  
+                            </a>
+                    
+                        <!-- <h2 class="logo-titulo">G<span class="resaltado">H</span>E<span class="resaltado">O</span></h2> -->
+                    </div>
+                    
+                    <div class="mobile-menu">
+                        <img src="public/build/img/barras.svg" alt="Icono de menu responsive">
+                    </div>
+                    
+                    <div class="derecha">
+                        <nav data-cy="navegacion-header" class="navegacion mostrar">
+                            <a href="#sobremi">Sobre mi</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#formacion">Formacion</a>
+                            <a href="#experiencia">Proyectos</a>
+                            <a href="#contacto">Contacto</a>    
+                        </nav>
+                    </div>
+                </div> <!-- Cierre de barra -->
+            </div>
+        </header>
+
+        <section class="contenedor-foto">
+
+            <div class="descripcion">
+                <h1 class="miNombre wow animate__bounce">Hola mi nombre es <strong>Oscar Hernández</strong></h1>
+                <p class="parrafos" >Soy <strong>Técnico en Ingeniería de Sistemas Informáticos</strong>. Formado en la Escuela Especializada en Ingeniería
+                ITCA-FEPADE en Santa Ana, El Salvador</p>
+            </div>
+
+            <div class="foto">
+                <!-- <picture>
+                    <source srcset="public/build/img/foto.jpeg" type="image/jpg">
+                    <source srcset="public/build/img/foto.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de mi foto">
+                </picture> -->
+            </div>
+
+        </section>
+
+        <main class="contenedor-principal">
+            
+            <div class="redes">
+                <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:26373825-02ad-3033-acf2-23e41e153799" target="_blank">
+                    <img  src="public/build/img/curriculum.png" alt="Imagen de icono de mi cv"><h4>CV</h4>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=50377312450"><input type="submit" value="Contactar"></a>
+                <a href="https://www.linkedin.com/in/oscar-hern%C3%A1ndez-g187/" target="_blank"><img  src="public/build/img/linkedin.png" alt="Imagen de icono de linkedin"><h4>Linkedin</h4></a>
+                <a href="https://github.com/OH187" target="_blank"><img  src="public/build/img/github.png" alt="Imagen de icono de github"><h4>GitHub</h4></a>
+            </div>
+
+        <h2 id="sobremi">Sobre mi</h2>
+        <p class="parrafos">Mi nombre completo es Oscar Ernesto Hernández Godoy. Tengo 24 años de edad y soy El Salvador. Estudié desde parvularia hasta noveno grado en el Centro Escolar Salomón Cañas. 
+            Me gradué de bachillerato en el Instituto Nacional de Candelaria de la Frontera. 
+            Soy técnico en Ingeniería de Sistemas Informáticos graduado de ITCA-FEPADE Regional de Santa Ana.
+            Poseo experiencia creando páginas web on PHP, MySql, Gulp, Sass, JavaScript. Además, he sido parte del
+            programa ONE (Oracle Next Education) de Alura Latam y Oracle, con una duración de 6 meses.
+        </p>
+
+                                            <!-- SKILLS -->
+        <h2 id="skills" >Skills</h2>
+        <div class="icono" id="skill">
+            <div class="skill">
+                <picture>
+                    <source srcset="public/build/img/html.png" type="image/png">
+                    <source srcset="public/build/img/html.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture> 
+                <h4>Html 5</h4>
+            </div>
+            
+            <div class="skill">
+                <picture>
+                    <source srcset="public/build/img/css.png" type="image/png">
+                    <source srcset="public/build/img/css.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture> 
+                <h4>Css 3</h4>
+            </div>
+
+            <div class="skill">
+                <picture>
+                    <source srcset="public/build/img/java.png" type="image/png">
+                    <source srcset="public/build/img/java.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture>  
+                <h4>Java</h4>
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/php.png" type="image/png">
+                    <source srcset="public/build/img/php.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture>  
+                <h4>php</h4>
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/javascript.png" type="image/png">
+                    <source srcset="public/build/img/javascript.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture> 
+                <h4>JavaScript</h4> 
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/sass.png" type="image/png">
+                    <source srcset="public/build/img/sass.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture> 
+                <h4>Sass</h4> 
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/mysql.png" type="image/png">
+                    <source srcset="public/build/img/mysql.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen del logo">
+                </picture> 
+                <h4>MySql</h4> 
+            </div>
+        </div>
+
+                                            <!-- HOBBIES -->
+                <h2 class="hobbies" >Hobbies</h2>
+        <div class="icono" >
+            <div class="skill">
+                <picture>
+                    <source srcset="public/build/img/piano.png" type="image/png">
+                    <source srcset="public/build/img/piano.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de hobbies">
+                </picture>  
+                <h4>Tocar teclado</h4>
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/guitarra.png" type="image/png">
+                    <source srcset="public/build/img/guitarra.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de hobbies">
+                </picture>  
+                <h4>Tocar guitarra</h4>
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/corriendo.png" type="image/png">
+                    <source srcset="public/build/img/corriendo.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de hobbies">
+                </picture>  
+                <h4>Salir a Correr</h4>
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/mesa-de-television.png" type="image/png">
+                    <source srcset="public/build/img/mesa-de-television.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de hobbies">
+                </picture> 
+                <h4>Mirar documentales</h4> 
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/adventurer.png" type="image/png">
+                    <source srcset="public/build/img/adventurer.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de hobbies">
+                </picture>  
+                <h4>Subir montañas</h4>
+            </div>
+
+            <div class="skill">
+                <picture >
+                    <source srcset="public/build/img/headphones.png" type="image/png">
+                    <source srcset="public/build/img/headphones.webp" type="image/webp">
+                    <img loading="lazy"  src="" alt="Imagen de hobbies">
+                </picture>  
+                <h4>Escuchar música</h4>
+            </div>
+        </div>
+
+                                <!-- Formación acadmica -->
+        <section >
+            <h2 id="formacion">Formación Académica</h2>
+            <div class="academias">
+                <div class="academia">
+                    <picture >
+                        <source srcset="public/build/img/itca.png" type="image/png">
+                        <source srcset="public/build/img/itca.webp" type="image/webp">
+                        <img class="academia"  loading="lazy"  src="" alt="Imagen de academia">
+                    </picture>  
+                    <p>Técnico en Ingeniería de Sistemas Informáticos</p>
+                </div>
+                <div class="academia">
+                    <picture>
+                        <source srcset="public/build/img/logo-alura.svg" type="image/png">
+                        <source srcset="public/build/img/logo-alura.webp" type="image/webp">
+                        <img loading="lazy"  src="" alt="Imagen de academia">
+                    </picture>  
+                    <p>Desarrollo Fullstack</p>
+                </div>               
+            </div>
+        </section>
+
+        <section >
+            <h2 id="experiencia">Experiencia laboral</h2>
+            <div class="experiencias contenedor">
+
+                                                <!-- BLOG DE CAFE -->
+                    <div  class="experiencia">
+                        <picture>
+                            <source srcset="public/build/img/blog.jpg" type="image/jpg">
+                            <source srcset="public/build/img/blog.webp" type="image/webp">
+                            <img loading="lazy" src="" alt="Imagen de experiencia laboral con proyectos">
+                        </picture>
+                        <h4>Blog de café</h4>
+                        <p class="parrafos">Una página sobre un blog de café desarrollada con HTML, CSS y JavaScript. </p>
+                        <div class="botones">
+                            <a  href="https://github.com/OH187/BlogCafe" target="_blank"><input class="btn-repo" type="submit" value="Repositorio" ></a>
+                            <a  href="https://oh187.github.io/BlogCafe/" target="_blank"><input class="btn-demo" type="submit" value="Demo" ></a>                
+                        </div>
+                    </div>
+
+                                                <!-- CONTROL DE TAREAS -->
+                    <div class="experiencia">
+                        <picture>
+                            <source srcset="public/build/img/task.jpg" type="image/jpg">
+                            <source srcset="public/build/img/task.webp" type="image/webp">
+                            <img loading="lazy" src="" alt="Imagen de experiencia laboral con proyectos">
+                        </picture>
+                        <h4>Control de tareas</h4>
+                        <p class="parrafos">Hecho con HTML, CSS y JavaScript</p>
+                        <div class="botones">
+                            <a  href="https://github.com/OH187/TODOAppGHEO" target="_blank"><input class="btn-repo" type="submit" value="Repositorio" ></a>
+                            <a  href="https://oh187.github.io/TODOAppGHEO/" target="_blank"><input class="btn-demo" type="submit" value="Demo" ></a>                
+                        </div>
+                    </div>
+
+                                            <!-- PAGINA DE MARIO -->
+                    <div class="experiencia">
+                        <picture>
+                            <source srcset="public/build/img/mario.jpg" type="image/jpg">
+                            <source srcset="public/build/img/mario.webp" type="image/webp">
+                            <img loading="lazy" src="" alt="Imagen de experiencia laboral con proyectos">
+                        </picture>
+                        <h4>Página de Mario Bros</h4>
+                        <p class="parrafos">Pequeña demo con temática de Mario Bros hecha con HTML y Tailwind css</p>
+                        <div class="botones">
+                            <a  href="https://github.com/OH187/DemoConTailwind" target="_blank"><input class="btn-repo" type="submit" value="Repositorio" ></a>
+                            <a  href="https://oh187.github.io/DemoConTailwind/" target="_blank"><input class="btn-demo" type="submit" value="Demo" ></a>                
+                        </div>
+                    </div>
+
+                                                    <!-- FESTIVAL DE MÚSICA -->
+                    <div class="experiencia">
+                        <picture>
+                            <source srcset="public/build/img/festival.jpg" type="image/jpg">
+                            <source srcset="public/build/img/festival.webp" type="image/webp">
+                            <img loading="lazy" src="" alt="Imagen de experiencia laboral con proyectos">
+                        </picture>
+                        <h4>Festival de Música</h4>
+                        <p class="parrafos">Una pequeña página sobre un festival de música hecha con HTML, CSS y JavaScript. </p>
+                        <div class="botones">
+                            <a  href="https://github.com/OH187/FestivalMusica" target="_blank"><input class="btn-repo" type="submit" value="Repositorio" ></a>
+                            <a  href="https://oh187.github.io/FestivalMusica/" target="_blank"><input class="btn-demo" type="submit" value="Demo" ></a>                
+                        </div>
+                    </div>
+
+                                            <!-- JUEGO DEL AHORCADO -->
+                    <div class="experiencia">
+                        <picture>
+                            <source srcset="public/build/img/Ahorcado.jpg" type="image/jpg">
+                            <source srcset="public/build/img/Ahorcado.webp" type="image/webp">
+                            <img loading="lazy" src="" alt="Imagen de experiencia laboral con proyectos">
+                        </picture>
+                        <h4>Juego del ahorcado</h4>
+                        <p class="parrafos">Juego hecho con HTML, CSS y JavaScript</p>
+                        <div class="botones">
+                            <a  href="https://github.com/OH187/Challenge_Ahorcado_GHEO" target="_blank"><input class="btn-repo" type="submit" value="Repositorio" ></a>
+                            <a  href="https://oh187.github.io/Challenge_Ahorcado_GHEO/" target="_blank"><input class="btn-demo" type="submit" value="Demo" ></a>                
+                        </div>
+                    </div>
+                                                        <!-- ENCRIPTADOR -->
+                    <div class="experiencia">
+                        <picture>
+                            <source srcset="public/build/img/encriptador.jpg" type="image/jpg">
+                            <source srcset="public/build/img/encriptador.webp" type="image/webp">
+                            <img loading="lazy" src="" alt="Imagen de experiencia laboral con proyectos">
+                        </picture>
+                        <h4>Encriptador de texto</h4>
+                        <p class="parrafos">Una pequeño encriptador de texto hecho con HTML, CSS y JavaScript. </p>
+                        <div class="botones">
+                            <a  href="https://github.com/OH187/Encriptador" target="_blank"><input class="btn-repo" type="submit" value="Repositorio" ></a>
+                            <a  href="https://oh187.github.io/Challenge_Encriptador_GHEO/" target="_blank"><input class="btn-demo" type="submit" value="Demo" ></a>                
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+                                        <!-- FORMULARIO -->
+            
+        <section class="cartao">
+            <h2 id="contacto" class="card__title">Contacto</h2>
+            <p class="parrafos">¿Desea contactarme? <br> Por favor, llene el siguiente formulario y me pondré en contacto con 
+                usted lo antes posible.</p>
+
+            <form action="./registro_concluido.html" class="formulario flex flex--column">
+                
+                    <div class="input-container">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                        <label class="input-label" for="name">Nombre</label>
+                        <span class="input-message-error">Este campo es válido</span>
+                    </div>
+
+                    <div class="input-container">
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                        <label class="input-label" for="email">Email</label>
+                        <span class="input-message-error">Este campo es válido</span>
+                    </div>
+
+                    <div class="input-container">
+                        <input name="phoneNumber" id="phoneNumber" class="input" type="text" placeholder="Número telefónico" required pattern="\d{8}" minlength="8" maxlength="8" data-tipo="telefono">
+                        <label class="input-label" for="phoneNumber">Número telefónico</label>
+                        <span class="input-message-error">Este campo es válido</span>
+                    </div>
+
+                    <div class="input-container">
+                        <input maxlength="50" name="asunto" id="asunto" class="input" type="text" placeholder="Asunto" required data-tipo="asunto">
+                        <label class="input-label" for="asunto">Asunto</label>
+                        <span class="input-message-error">Este campo es válido</span>
+                    </div>
+
+                    <div class="input-container">
+                        <textarea maxlength="300" name="mensaje" class="input" id="mensaje" cols="30" rows="10" placeholder="Mensaje"  required data-tipo="textarea"></textarea>
+                        <label class="input-label" for="mensaje">Mensaje</label>
+                        <span class="input-message-error">Este campo es válido</span>
+                    </div>
+                
+
+                <button class="button">Enviar</a>
+            </form>
+        </section>
+
+                                <!-- FOOTER -->
+
+            <footer class="footer">
+                <p > Desarrollado por Oscar Hernández &copy;<span class="fecha"></span></p>
+
+                <!-- Obteniendo y mostrando fecha -->
+                    <script> 
+                    let fecha = new Date();
+                    let formato = fecha.getUTCFullYear();
+                    var pFecha = document.querySelector('.fecha');
+                    
+                    pFecha.innerHTML = formato;
+                    </script> 
+            </footer>
+        </main>
+    <script type="module" src="public/build/js/bundle.min.js"></script>
+    <!-- <script src="./src/js/app.js"></script> -->
+</body>
+</html>

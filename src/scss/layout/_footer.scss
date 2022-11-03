@@ -1,0 +1,28 @@
+.footer{
+    // background-color: $azul;
+    background: linear-gradient(to right, $azul 30%, $fondo);
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 100%;
+
+    .navegacion{
+        @include telefono{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        a{
+            margin-right: 2rem;
+        }
+        }
+        
+
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+    .copyright{
+        color: $blanco;
+        text-align: center;
+    }
+}

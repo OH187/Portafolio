@@ -1,0 +1,2 @@
+.button{align-self:center;background-color:var(--primary-color);border-radius:7px;box-sizing:border-box;color:var(--contrast-light-color);display:block;font-size:var(--font-size-button);margin-top:1rem;max-width:20rem;padding:1.125rem;text-align:center;width:100%}.simple-button{background-color:unset;border:none}.simple-button--add{color:var(--primary-color)}.simple-button--delete{color:var(--warning-color)}.simple-button--edit{color:var(--success-color)}
+/*# sourceMappingURL=button.css.map */

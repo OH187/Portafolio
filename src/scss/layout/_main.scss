@@ -1,0 +1,178 @@
+.parrafos{
+    font-size: $tamano1;
+    width: 95%;
+    line-height: 1.5;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.contenedor-principal{    
+    max-width: 1350px;
+    margin: auto;
+    margin-top: 0;
+    background: linear-gradient(to right, $azul 30%, $fondo);
+    // background-color: $azul;
+    color: $blanco;
+    
+} 
+.botones{
+    padding:0 0 0 20px;
+    input{
+        margin: 5px auto;
+    }
+}
+
+.contenedor-foto{
+    width: 100%;
+    background: linear-gradient(to right, $azul 30%, $fondo);
+
+    .foto{ 
+        background-image: url(../../../public/build/img/foto.jpeg);
+        background-color: rgb($fondo, 0.7);
+        filter:brightness(0.6);
+        margin: 0 auto;
+        height: 40rem;
+        border-radius: 50%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 90%;
+    }
+}
+
+
+
+@include tablet{
+    .contenedor-foto{
+        padding: 10px 10px;
+        background-color: $fondo;
+        height: 100%;
+        margin: 0 auto;
+        max-width: 1350px;
+        display: flex;
+        justify-content: space-between;
+
+        .foto{
+            height: 40rem;
+            border-radius: 50%;
+            width: 0;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    }
+}
+
+.miNombre{
+    color: $blanco;
+    position: relative;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+
+.descripcion{
+    color: $blanco;
+    padding: 30px;
+}
+
+
+@include telefono {
+    .contenedor-foto{
+        .foto{
+            width: 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+@include tablet {
+    .experiencias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .experiencia{
+        width: 80%;
+        max-width: 80%;
+        margin: 0 20px;
+        
+        picture{
+            width: 40%;
+        }
+    }
+    .contenedor-foto{
+        .foto{
+            width: 60%;
+            max-width: 60%;
+        }
+    }
+}
+
+.experiencia{
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb($negro, 0.3);
+    picture{
+        // max-width: 75%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    h4{
+        font-size: 2.75rem;
+        font-weight: $bold;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-demo{
+        cursor: pointer;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: rgb($blanco, 0.5);
+        border: 1px solid rgb($fondo, 0.7);
+        color: rgb($azul, 0.7);
+        font-family: $fuenteSecundaria;
+    }
+    
+    .btn-demo:hover{
+        background-color: rgb($rojo, 0.4);
+        border: 1px solid $fondo;
+        color: $blanco;
+    }
+
+    .btn-repo{
+        cursor: pointer;
+        width: 15rem;
+        height: 4rem;
+        background-color: rgb($blanco, 0.5);
+        border-radius: 5px;
+        border: 1px solid rgb($fondo, 0.7);
+        color: rgb($azul, 0.7);
+        font-family: $fuenteSecundaria;
+    }
+
+    .btn-repo:hover{
+        background-color: rgb($rojo, 0.4);
+        border: 1px solid $fondo;
+        color: $blanco;
+    }
+}

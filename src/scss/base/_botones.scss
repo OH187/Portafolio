@@ -1,0 +1,25 @@
+.boton-amarillo{
+    @include boton($amarillo, block);
+    border-radius: 1rem;
+}
+.boton-verde{
+    @include boton($verde, inline-block);
+    border-radius: 1rem;
+}
+.boton-amarillo-inline{
+    @include boton($amarillo, inline-block);
+    border-radius: 1rem;
+}
+.boton-rojo-block{
+    border-radius: 1rem;
+    @include boton($rojo, block);
+}
+.boton-verde-block{
+    @include boton($verde, block);
+}
+.boton-tabla{
+    height: 5rem;
+    margin: 1.5rem 0 1rem auto;
+    width: 20rem;
+}
+

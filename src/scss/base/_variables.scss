@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,500&display=swap');
+
+// Fuentes
+$fuente_principal: 'Roboto', sans-serif;
+$fuenteSecundaria: 'Lato', sans-serif;
+$tamano1: 19px;
+$font-size-logo: 28px;
+$font-size-card-title: 28px;
+$font-size-input-label: 15px;
+$font-size-button: 22px;
+$font-size-form-fieldset: 22px;
+$font-size-table-header: 22px;
+$font-size-modal-title: 28px;
+$font-size-modal-button: 28px;
+
+$shadow: 0 10px 10px #0000005b;
+
+$font-weigth-input: 300;
+
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet2: 427px;
+$tablet: 768px;
+$otro: 900px;
+$desktop: 1024px;
+
+// Colores
+$secondary-color: #5181e7f3;
+$transparency-color: #4d4d4d33;
+$success-color: #047900;
+$negro: #000000;
+$amarillo: #E08709;;
+$verde: #71B100;
+$blanco: #FFFFFF;
+$gris: #e1e1e1;
+$grisOscuro: #333333;
+$grisClaro: #575756;
+$beige:#ad8e53;
+$beige2: rgba(173,142,83,255);
+$rojo: #ff1f1f;
+$rojo2: #b80b0b;
+$azul: #050a30;
+$fondo: #61150cf5;
+$fondoSecundario: rgba(97,20,12);
+$fondo2: #a8645df5;
+
+$separacion: 5rem;
+
+// Fuentes
+$delgada: 300;
+$regular : 400;
+$bold: 700;
+$black: 900
